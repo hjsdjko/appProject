@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/ask_llc"
+        android:layout_width="match_parent"
+        android:layoutDirection="rtl"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <com.qmuiteam.qmui.widget.QMUIRadiusImageView
+            android:id="@+id/ask_avatar_ifv"
+            app:qmui_corner_radius="5dp"
+            app:src="@color/common_colorPrimary"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <FrameLayout
+            android:id="@+id/ask_fl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/shape_radius10_primary_light"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/ask_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="提问内容" />
+            <ImageView
+                android:id="@+id/ask_iv"
+                android:scaleType="centerCrop"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+        </FrameLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:id="@+id/reply_llc"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <com.qmuiteam.qmui.widget.QMUIRadiusImageView
+        android:id="@+id/reply_avatar_ifv"
+        app:qmui_corner_radius="5dp"
+        app:src="@color/common_colorPrimary"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    <FrameLayout
+        android:id="@+id/reply_fl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/shape_radius10_bg"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/reply_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="回复内容" />
+        <ImageView
+            android:id="@+id/reply_iv"
+            android:scaleType="centerCrop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+    </FrameLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

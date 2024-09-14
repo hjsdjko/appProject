@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <com.design.appproject.widget.CommonTitleBarView
+        android:id="@+id/barview"
+        app:common_title="地图"
+        app:common_leftSrc="@drawable/qmui_icon_quick_action_more_arrow_left"
+        app:common_titleColor="@color/navigation_color"
+        android:background="@color/navigation_backgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+    <com.amap.api.maps.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/common_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/search_et"
+            android:layout_margin="10dp"
+            android:hint="搜索地点"
+            android:lines="1"
+            android:singleLine="true"
+            android:gravity="center_vertical"
+            android:imeOptions="actionSearch"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:background="@drawable/shape_radius10_stroke_gray"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/address_rv"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.design.appproject.widget.MyFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/index_recommend_five_item_style">
+    <com.youth.banner.Banner
+        android:id="@+id/recommend_banner"
+        style="@style/index_recommend_five_base_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</com.design.appproject.widget.MyFrameLayout>

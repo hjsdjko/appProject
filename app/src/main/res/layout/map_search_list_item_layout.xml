@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_tv"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:textColor="@color/common_title_color"
+    android:padding="10dp"
+    android:background="@drawable/common_selector_line_bottom"
+    android:layout_height="wrap_content"/>

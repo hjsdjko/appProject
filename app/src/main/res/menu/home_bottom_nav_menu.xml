@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_index_home"
+        android:icon="@drawable/home_selector_bottom_index"
+        android:title="首页" />
+    <item
+        android:id="@+id/navigation_dianpu_home"
+        android:icon="@drawable/home_selector_bottom_icon1"
+        android:title="店铺"/>
+    <item
+        android:id="@+id/navigation_fuwuxiangmu_home"
+        android:icon="@drawable/home_selector_bottom_icon2"
+        android:title="服务项目"/>
+    <item
+        android:id="@+id/navigation_map_home"
+        android:icon="@drawable/home_selector_bottom_map"
+        android:title="地图"/>
+    <item
+        android:id="@+id/navigation_mine_home"
+        android:icon="@drawable/home_selector_bottom_mine"
+        android:title="我的" />
+</menu>
